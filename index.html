@@ -255,7 +255,9 @@
         img.dataset.aosDelay = i * 100;
         img.dataset.aosDuration = 1000;
       })
-      AOS.init(once = true);
+      AOS.init({
+        once : true;
+      });
     </script>
     <!-- js GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
