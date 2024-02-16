@@ -14,3 +14,11 @@ section {
 .my-button {
   background-color: #1cf1e3;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 1px;
+}
